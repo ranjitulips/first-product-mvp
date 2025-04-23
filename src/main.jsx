@@ -18,8 +18,9 @@ const route = createBrowserRouter(
     <>
       <Route path="/register" element={<Register />}></Route>
       <Route path="/" element={<App />}>
+        <Route path="/" element={<Home />}></Route>
         <Route path="home" element={<Home />}></Route>
-        <Route path="course" element={<CourseList />} />
+        <Route path="products" element={<CourseList />} />
       </Route>
     </>
   )

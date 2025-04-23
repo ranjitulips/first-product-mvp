@@ -49,7 +49,7 @@ function App() {
       value={{ course: listOfCourse, handleAddCart, handleRemoveAddCart }}
     >
       <div>
-        <Header name="New Course List App" />
+        <Header name="First Product App in React" />
         <Outlet />
       </div>
     </CourseContext.Provider>

@@ -4,12 +4,12 @@ function Home() {
   const navigate = useNavigate();
 
   function handleGoHome() {
-    navigate("/course");
+    navigate("/products");
   }
 
   return (
     <>
-      <button onClick={handleGoHome}>Go to Course</button>
+      <button onClick={handleGoHome}>Go to Products List</button>
       <h2>Home </h2>
     </>
   );

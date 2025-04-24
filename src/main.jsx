@@ -1,4 +1,3 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
@@ -7,8 +6,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from "./App.jsx";
-import Store from "./components/Store.jsx";
-import Contactus from "./components/ContactUs.jsx";
 import Register from "./components/Register.jsx";
 import CourseList from "./components/CourseList.jsx";
 import Home from "./components/Home.jsx";
